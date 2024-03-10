@@ -20,10 +20,6 @@ public class FruitTransformation : MonoBehaviour
 
     bool IsSameType(GameObject otherObject)
     {
-        // You can compare tags or names here.
-        // For example, comparing tags:
         return gameObject.tag == otherObject.tag;
-        // Or comparing names:
-        // return gameObject.name == otherObject.name;
     }
 }
